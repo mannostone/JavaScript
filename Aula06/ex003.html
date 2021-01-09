@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "UTF-8">
+        <title> Cod </title>
+        <style>
+            body {
+                background-color: black; 
+                color: white;
+                font: normal 16pt arial;   
+            }
+        </style>
+    </head>
+    <body>
+        <h1><p> Olá mundo </p></h1> 
+
+        <script>
+            //JavaScript
+            //window.prompt retorna sempre o dado como String
+            // window.prompt("Digite outro número") retorna string
+            //toFixed(valor) - seta a quantidade de casas decimais após a virgula
+            var n1 = parseInt ( window.prompt("Digite um número")) // converte o tipo para Int
+            var n2 = parseInt (window.prompt("Digite outro número"))
+            // Número convertido em inteiro serão somados, números não convertido serão concatenados
+            window.alert("Ta aqui a soma dos valores: " + (n1+n2))
+            //Utilizando PlaceHolder "${variavel}" semelhante ao printf(C++)
+            //PlaceHolder deve ser utilizado entre crases -> `` e não aspas -> ""
+            window.alert(`A soma de ${n1} + ${n2} é: ${n1+n2}`)
+        </script>
+    </body>
+</html>
