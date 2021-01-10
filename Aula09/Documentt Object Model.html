@@ -1,0 +1,64 @@
+<doctype html>
+<html lang = "pt-br">
+<head>
+    <meta charset = "utf-8">
+    <title> Object Model </title>
+
+    <style>
+        body {
+            background-color: black;
+            font: normal 20pt arial;
+            color: white;
+            }
+    </style>
+</head>
+<body>
+<h1> Começando a ver DOM </h1>
+<p> JavaScript <strong> !é idêntico </strong> a Java</p>
+<p> Aprendendo um pouco sobre <strong> DOM </strong> em JavaScript </p>
+<!-- div id/name/class dependendo dos comentários mais abaixo -->
+<div id = "msg"> Clica aqui logo </div>
+<script>
+    //JavaScript
+    window.document.writeln(window.navigator.appName)
+    /* Formas de navegar pela árvore DOM:
+    - Marca / getElementsByTagName()
+    - ID / getElementById()
+    - Nome / getElementsByName()
+    - Classe / getElementsByClassName
+    - Seletor (CSS) / querySelector() & querySelectorAll()
+    ~~~~~~ getElement - Não necessita de colchetes por ser "atributo único"
+    ~~~~~~ getElements - Necessita de colchetes, pois pode conter múltiplos resultados */
+
+    // Seletor por Marca
+    // getElementsByTagName()[] / entre "()" colocamos o tipo da tag que queremos buscar
+    // entre colchetes selecionamos qual dessas tags queremos
+    var p1 = window.document.getElementsByTagName('p')[0]
+    // p1 é a variável criada, innerText puxará apenas o texto do parágrafo selecionado
+    window.document.write('<br>Está escrito: ' + p1.innerText)
+    // innerHTML puxa o texto com a formatação
+    document.write('<br>Está escrito: ' + p1.innerHTML)
+    // alert(p1.innerText) // Janela pop-up
+
+    // Seletor por Id
+    /*//Linhas 20 | 26 | 30
+    var d = window.document.getElementById('msg')
+    d.style.background = 'green'
+    d.innerText = 'Não esquece de trocar pra name pra ver o outro exemplo' */
+    
+    // Seletor por Nome
+    /*//Linhas 20 | 27 | 31
+    var d = window.document.getElementsByName('msg')[0]
+    d.innerText = 'Não esquece de trocar pra id pra ver o outro exemplo' */
+
+    // Seletor por Classe igual ao por Id e por Nome
+
+    // Seletor (CSS)
+    /* Representação de uma div 
+    id = "#"
+    class = "."*/
+    var d = window.document.querySelector('div#msg')
+    d.style.color = 'blue'
+</script>
+</body>
+</html>
