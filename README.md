@@ -21,3 +21,10 @@
 - Diferença no sinal de igualdade
 - Operador ternário
 - Precedência de operadores binários, comparativos, lógicos e ternário
+
+# Aula09
+- Formas de <strong>selecionar/navegar</strong> pela árvore DOM: Marca | ID | Nome | Class | Selector(CSS)
+- Diferença entre getElement e getElements
+- Exemplos de seletor por Marca | Id | Nome | Selector CSS (querySelector)
+~~<br>Muito comentário~~
+
