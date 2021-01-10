@@ -13,3 +13,11 @@
 - document.writeln
 - toUpper/LowerCase()
 - .toLocaleString() -> *<strong> Importante </strong>*
+
+# Aula07
+- Precedência de operadores
+
+# Aula08
+- Diferença no sinal de igualdade
+- Operador ternário
+- Precedência de operadores binários, comparativos, lógicos e ternário
