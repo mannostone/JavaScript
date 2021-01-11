@@ -28,3 +28,5 @@
 - Exemplos de seletor por Marca | Id | Nome | Selector CSS (querySelector)
 ~~<br>Muito comentário~~
 
+# Aula10
+- 2 Formas de adicionar evento/interação (linha 19 & 40)
