@@ -30,3 +30,6 @@
 
 # Aula10
 - 2 Formas de adicionar evento/interação (linha 19 & 40)
+- Captura de dados com <strong> getElementsById</strong> e <strong>querySelector</strong> 
+- Conversão String -> int/float
+- Utilizando Placeholder
