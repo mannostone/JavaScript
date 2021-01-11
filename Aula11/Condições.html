@@ -1,0 +1,31 @@
+<doctype html>
+<html lang = "pt-br">
+<head>
+    <meta charset = 'utf-8'>
+    <title> Condições </title>
+</head>
+<body>
+    <!-- HTML -->
+    <h1> Sistema de multas </h1>
+    Velocidade do carro <input type = "number" name txtvel id = "vel">
+    <input type = "button" value = "Verificar" onclick = "calcular()">
+    <div id =  "res">
+
+    </div>
+
+    <script>
+    //JavaScript
+    function calcular () { // função da linha 11
+    var txtv = window.document.querySelector('input#vel')
+    var res = window.document.querySelector('div#res') // "res" é uma variável da div em branco
+    n1 = parseFloat(txtv.value) // conversão de String para Float
+    res.innerHTML = `Sua velocidade é ${n1}Km/h`
+        if (n1 > 60) { // n1 = linha 21
+            // "+=" faz a concatenação com o texto anterior (linha 22)
+            res.innerHTML += '<p> Você foi multado </p>'
+        }
+    }
+
+    </script>
+</body>
+</html>
