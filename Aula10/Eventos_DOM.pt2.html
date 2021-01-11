@@ -1,0 +1,29 @@
+<doctype html>
+<html lang = "pt-br">
+<head>
+    <meta charset = "utf-8">
+    <title> Eventos DOM </title>
+</head>
+<body>
+    <!-- HTML -->
+    <h1> Somando Valores </h1>
+    <input type = "number" name = "txtn1" id = "txtn1">
+    <input type = "number" name = "txtn2" id = "txtn2">
+    <input type = "button" value = "Somar" onclick="somar()">
+    <div id = "res"> Resultado </div>
+    
+    <script>
+    //JavaScript
+    function somar() { 
+        // Valores capturados como texto   
+        var tn1 = window.document.getElementById('txtn1') // Seletor de objeto por Id
+        var tn2 = window.document.querySelector('input#txtn2') // Seletor de objetos utilizando o Selector (CSS)
+        // Valores convertidos para tipo numérico
+        n1 = parseInt (tn1.value)
+        n2 = parseInt (tn2.value)
+        // Mostrando resposta na div id = "res"
+        res.innerText = `A soma dos valores é: ${n1+n2}`
+    }
+    </script>
+</body>
+</html>
