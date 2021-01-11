@@ -1,0 +1,46 @@
+<doctype html>
+<html lang = 'pt-br'>
+<head>
+    <meta charset = 'utf-8'>
+    <title> Eventos DOM </title>
+    <style> /* CSS */
+        div#area {
+            font: normal 20pt;
+            background: black;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1° Forma de adicionar eventos -->
+    <!-- <div id = "area" onclick = "clicar()", onmouseover = "entrar()", onmouseout = "sair()"> -->
+    <div id = "area" >
+        <p> Não clique </p>
+    </div>
+
+    <script>
+    //JavaScript
+    var a = window.document.getElementById('area')
+    // Funções utilizadas nos exemplos
+    function clicar () {
+        // variável criada para manipular o que acontece
+        a.innerText = 'O jogo'
+    }
+    function entrar() {
+        a.innerText = ' NÃO CLIQUE AQUI '
+    }
+    function sair() {
+        a.innerText = " Muito bem"
+    }
+
+    // Segunda forma de adicionar eventos
+    a.addEventListener('click', clicar)
+    a.addEventListener('mouseenter', entrar)
+    a.addEventListener('mouseout', sair)
+    </script>
+</body>
+</html>
