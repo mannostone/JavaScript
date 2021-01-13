@@ -39,3 +39,20 @@
 - HTML com exemplo condicional simples
 - input button
 - querySelector
+
+# Exec.01
+<strong>HTML</strong> 
+- link: CSS
+- body onload function
+- link: JS 
+
+<strong>CSS</strong>
+- box-shadow
+- text-align
+
+<strong>JavaScript</strong>
+- Variável para divs com id
+- Variável do tipo Date()
+- Concatenação de mensagens
+- Troca de imagens com estrutura condicional composta
+- Troca de cor de fundo  com estrutura condicional composta
