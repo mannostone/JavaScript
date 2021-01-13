@@ -33,3 +33,9 @@
 - Captura de dados com <strong> getElementsById</strong> e <strong>querySelector</strong> 
 - Conversão String -> int/float
 - Utilizando Placeholder
+
+# Aula11
+- Arquivo JS com exercício em Node(VSCode)
+- HTML com exemplo condicional simples
+- input button
+- querySelector
