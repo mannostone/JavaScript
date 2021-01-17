@@ -8,6 +8,7 @@ function verificar() {
     var res = document.querySelector('div#res')
     // criação de uma tag para carregar a imagem
     var img = document.createElement('img')
+    // setando identificação na variável dinâmica
     img.setAttribute('id', 'foto')
 
     if (fAno.value.length == 0 || fAno.value > ano) // valor não preenchido ou maior que o ano atual
