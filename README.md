@@ -56,3 +56,16 @@
 - Concatenação de mensagens
 - Troca de imagens com estrutura condicional composta
 - Troca de cor de fundo  com estrutura condicional composta
+
+# Exec.02
+<strong>HTML</strong>
+- inputs type -> number / radio / button
+- (copyright) -> &copy;
+
+<strong> ~~CSS~~ </strong>
+
+<strong> JavaScript </strong>
+- comando getFullYear()
+- criação e identificação de uma tag dinâmica (img no caso)
+- Setando imagens dinamicamente
+- Exibindo tag dinâmica <strong>appendChild()</strong>
